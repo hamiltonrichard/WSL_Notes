@@ -40,7 +40,7 @@ In this instance I have not only an OpenSUSE instance, but an Ubuntu one as well
 
 ### Copying the VHDX file to a New Location (Optional)
 
-I didn't want to work on the origional VXDF file so I copied to a different location. This is optional. In my case I created a wsl and wsl_images directory in my home directory and copied the image to wsl_images:
+I didn't want to work on the origional VHDX file so I copied to a different location. This is optional. I chose to create a _wsl_ and _wsl_mages_ subdirectory in my home directory:
 
 ```bash
 mkdir wsl wsl_images/
@@ -102,3 +102,4 @@ Review _guestmount(1)_ for complete details. These notes may be of some interest
 ## Sources
 
 1. [Finding or Recovering WSL Data](https://christopherkibble.com/posts/wsl-vhdx-recovery/)
+2. [`guestmount` man page](https://linux.die.net/man/1/guestmount)
